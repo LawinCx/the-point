@@ -1,0 +1,22 @@
+.container {
+    padding-top: 145px;
+    text-align: center;
+    color: #fff;
+}
+
+.Img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*.SearchBox, textarea {
+    color: #757575;;
+}*/
+
+.LoginButton {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 120px;
+    background: transparent linear-gradient(0deg, #7DD6F8 0%, #7CC6F7 10%, #7BA7F7 34%, #7A91F7 58%, #7A83F7 80%, #7A7FF7 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+}

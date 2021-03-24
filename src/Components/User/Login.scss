@@ -1,0 +1,107 @@
+/*.data, textarea {
+    color: #757575;;
+}*/
+
+@mixin fondo($fondo) {
+    background: $fondo;
+}
+
+.LogPage {
+    background: url('./Untitled-1.png') 0% 0% no-repeat padding-box;
+    width: 375px;
+    height: 812px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    text-align: center;
+    z-index: 5;
+
+    .Logo {
+
+        .Back {
+            position: absolute;
+            top: 56px;
+            left: 36px;
+            color: #fff;
+        }
+
+        img {
+            width: 137px;
+            height: 80px;
+        }
+
+    }
+
+    .LogForm {
+        background: transparent;
+
+        h4 {
+            color: #fff;
+            border-radius: 21px;
+            width: 327px;
+            height: 19px;
+            padding: 21px;
+            position: relative;
+            top: 280px;
+            margin-left: 2px;
+        }
+
+        .fb {
+            @include fondo( #52A0F8 0% 0% no-repeat padding-box)
+        }
+
+        .google {
+            color: #1B222E;
+            @include fondo( #fff 0% 0% no-repeat padding-box)
+        }
+
+        h5 {
+            color: #fff;
+            position: relative;
+            top: 290px;
+        }
+
+        .hr {
+            position: relative;
+            top: 290px;
+            width: 100%;
+            height: 9px;
+            border-bottom: 1px solid #111;
+        }
+
+        span {
+            font-size: 11px;
+            background-color: #fff;
+            padding: 0 10px;
+        }
+
+        input {
+            position: relative;
+            top: 290px;
+            width: 90%;
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #555;
+            background-color: transparent;
+            margin-top: 20px;
+        }
+
+        button {
+            position: relative;
+            top: 300px;
+            background: transparent linear-gradient(270deg, #6E52FC 0%, #6A5DFB 39%, #52A0F8 100%) 0% 0% no-repeat;
+            border-radius: 28px;
+            width: 357px;
+            height: 40px;
+            color: #fff;
+            
+        }
+
+        a {
+            color: #52A0F8;
+            position: relative;
+            top: 270px;
+            font-size: 12px;
+        }
+
+    }
+}
